@@ -2,7 +2,7 @@ import React from 'react'
 
 //Images
 import Cover from '../../img/cover.jpg'
-import Profile from '../../img/profile.jpeg'
+import ProfileImg from '../../img/profile.jpg'
 
 //Styles
 import './ProfileCard.css'
@@ -12,7 +12,7 @@ const ProfileCard = () => {
     <div className="profileCard">
         <div className="profileImages">
             <img src={Cover} alt=""/>
-            <img src={Profile} alt=""/>
+            <img src={ProfileImg} alt=""/>
         </div>
 
         <div className="profileName">
