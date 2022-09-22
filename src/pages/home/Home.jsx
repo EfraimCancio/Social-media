@@ -3,6 +3,7 @@ import React from 'react';
 // Components
 import ProfileSide from'../../components/profileSide/ProfileSide';
 import PostSide from '../../components/postSide/PostSide';
+import RightSide from '../../components/RightSide/RightSide';
 
 // Styles
 import './Home.css';
@@ -12,8 +13,7 @@ const Home = () => {
     <div className="home">
         <ProfileSide/>
         <PostSide/>
-        <div className="rightSide">Rigth side</div>
-        
+        <RightSide/>
     </div>
   )
 }
