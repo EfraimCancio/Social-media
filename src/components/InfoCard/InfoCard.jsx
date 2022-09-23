@@ -1,4 +1,8 @@
-import React from 'react';
+// React Componentes and Hooks
+import React, {useState} from 'react';
+
+// App Components
+import ProfileModal from '../ProfileModal/ProfileModal';
 
 // Icons
 import { Info } from 'phosphor-react';
@@ -7,12 +11,18 @@ import { Info } from 'phosphor-react';
 import './InfoCard.css';
 
 const InfoCard = () => {
-  return (
+
+    const [modalOpened, setModalOpened] = useState(false)
+
+    return (
     <div className="infoCard">
         <div className="infoHead">
             <h4>Your Info</h4>
             <div>
-                <Info size={32} />
+                <a onClick={()=>setModalOpened(true)}>
+                <Info size={32}/>
+                </a>
+                <ProfileModal modalOpened={modalOpened} setModalOpened={setModalOpened}/>
             </div>
         </div>
 
@@ -41,7 +51,7 @@ const InfoCard = () => {
             Logout
         </div>
     </div>
-  )
+    )
 }
 
 export default InfoCard

@@ -63,4 +63,4 @@ const PostShare = () => {
     )
 }
 
-export default PostShare
+export default PostShare;
