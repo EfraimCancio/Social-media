@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Components
-import ProfileSide from'../../components/profileSide/ProfileSide';
-import PostSide from '../../components/postSide/PostSide';
+import ProfileSide from'../../components/ProfileSide/ProfileSide';
+import PostSide from '../../components/PostSide/PostSide';
 import RightSide from '../../components/RightSide/RightSide';
 
 // Styles
