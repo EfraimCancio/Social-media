@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Page Components
-import Home from './pages/home/Home';
+import Home from './pages/Home/Home';
 import Profile from './pages/Profile/Profile';
 import Auth from './pages/Auth/Auth';
 
